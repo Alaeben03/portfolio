@@ -1,0 +1,146 @@
+{
+  "about": {
+    "title": "About Me",
+    "imageSrc": "/alae.jpg",
+    "imageAlt": "Alaeddine",
+    "description": "I’m a Master’s student in Artificial Intelligence, passionate about solving real-world problems using machine learning, computer vision, and multi-agent systems. I enjoy working on challenging projects and continuously learning new technologies.",
+    "sections": {
+      "education": {
+        "title": "Education",
+        "items": [
+          { "degree": "Master’s in Artificial Intelligence", "university": "[Your University]", "year": "[Year]" },
+          { "degree": "Bachelor’s in [Your Field]", "university": "[Your University]", "year": "[Year]" },
+          { "degree": "Bachelor’s in [Your Field]", "university": "[Your University]", "year": "[Year]" }
+        ]
+      },
+      "interests": {
+        "title": "Interests",
+        "items": [
+          "Sports: Football, Basketball, Tennis",
+          "Music: Playing guitar, listening to jazz",
+          "Travel: Exploring new cultures and cuisines",
+          "Reading: Science fiction and non-fiction"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "formFields": [
+      { "label": "Name", "type": "text", "id": "name", "name": "name", "required": true },
+      { "label": "Email", "type": "email", "id": "email", "name": "email", "required": true },
+      { "label": "Message", "type": "textarea", "id": "message", "name": "message", "required": true }
+    ],
+    "submitButton": "Send Message",
+    "socialTitle": "Let's Connect!",
+    "socialText": "Feel free to reach out via email or connect with me on social media.",
+    "socialLinks": [
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/alaeddine-benheddi-a38b01232/" },
+      { "name": "GitHub", "url": "https://github.com/Alaeben03" },
+      { "name": "Email", "url": "mailto:alaeben.st@gmail.com" }
+    ],
+    "alertMessage": "Thank you for your message! I will get back to you soon."
+  },
+  "footer": {
+    "backToTop": "Back to Top",
+    "copyrightText": "© 2025 [Your Name]. All rights reserved."
+  },
+  "hero": {
+    "title": "Master's Student in AI",
+    "description": "Passionate about Machine Learning, Computer Vision, and Multi-Agent Systems.",
+    "buttons": [
+      { "text": "View My Projects", "link": "#projects" },
+      { "text": "Download Resume", "link": "#resume" }
+    ]
+  },
+  "navbar": {
+    "name": "Benheddi Alaeddine",
+    "menuButtonSymbol": "☰",
+    "navLinks": [
+      { "to": "home", "label": "Home" },
+      { "to": "about", "label": "About" },
+      { "to": "projects", "label": "Projects" },
+      { "to": "skills", "label": "Skills" },
+      { "to": "resume", "label": "Resume" },
+      { "to": "contact", "label": "Contact" }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "id": 1,
+        "title": "NIH Chest X-rays Image Classification",
+        "description": "Built a CNN for classifying NIH chest X-ray images using Python, TensorFlow, and OpenCV.",
+        "details": "This project involved preprocessing a large dataset of chest X-ray images and training a convolutional neural network (CNN) to classify them into different categories.",
+        "technologies": ["Python", "TensorFlow", "OpenCV"],
+        "github": "https://github.com/yourusername/project1",
+        "moreButtonText": "More",
+        "githubButtonText": "View on GitHub",
+        "closeButtonText": "X"
+      },
+      {
+        "id": 2,
+        "title": "Handball Match Spatial Interactions",
+        "description": "Analyzed spatial interactions in handball matches using Python, SciPy, and Matplotlib.",
+        "details": "This project focused on analyzing player movements and interactions during handball matches to identify patterns and strategies.",
+        "technologies": ["Python", "SciPy", "Matplotlib"],
+        "github": "https://github.com/yourusername/project2",
+        "moreButtonText": "More",
+        "githubButtonText": "View on GitHub",
+        "closeButtonText": "X"
+      },
+      {
+        "id": 3,
+        "title": "Multi-Agent Production Workshop System",
+        "description": "Developed a multi-agent system for production workshop management using Java and JADE.",
+        "details": "This project involved designing and implementing a multi-agent system to optimize production workflows in a workshop environment.",
+        "technologies": ["Java", "JADE"],
+        "github": "https://github.com/yourusername/project3",
+        "moreButtonText": "More",
+        "githubButtonText": "View on GitHub",
+        "closeButtonText": "X"
+      },
+      {
+        "id": 4,
+        "title": "AI-Powered Chatbot",
+        "description": "Created a chatbot using natural language processing and machine learning techniques.",
+        "details": "This project involved training a chatbot to understand and respond to user queries using NLP and machine learning models.",
+        "technologies": ["Python", "NLP", "TensorFlow"],
+        "github": "https://github.com/yourusername/project4",
+        "moreButtonText": "More",
+        "githubButtonText": "View on GitHub",
+        "closeButtonText": "X"
+      },
+      {
+        "id": 5,
+        "title": "Image Recognition System",
+        "description": "Developed an image recognition system using convolutional neural networks.",
+        "details": "This project involved building and training a CNN to recognize objects in images with high accuracy.",
+        "technologies": ["Python", "TensorFlow", "Keras"],
+        "github": "https://github.com/yourusername/project5",
+        "moreButtonText": "More",
+        "githubButtonText": "View on GitHub",
+        "closeButtonText": "X"
+      }
+    ],
+    "showMoreButtonText": "Show More",
+    "showLessButtonText": "Show Less",
+    "technologiesLabel": "Technologies:"
+  },
+  "resume": {
+    "title": "Resume",
+    "downloadButtonText": "Download Resume (PDF)",
+    "resumeLink": "/resume.pdf"
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "Programming Languages": ["Python", "Java", "C++", "JavaScript"],
+      "Machine Learning": ["TensorFlow", "PyTorch", "Scikit-Learn", "Keras"],
+      "Data Analysis": ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      "Tools & Frameworks": ["Git", "Docker", "Jupyter Notebook", "VS Code"],
+      "Other Skills": ["Computer Vision", "Natural Language Processing", "Multi-Agent Systems", "AI Ethics"]
+    }
+  }
+}

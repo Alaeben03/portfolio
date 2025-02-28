@@ -1,0 +1,151 @@
+.projects {
+  padding: 4rem 2rem;
+  background-color: var(--background); /* Use background variable */
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color); /* Use primary color */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--background2);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color); /* Use primary color */
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: var(--text-color); /* Use text color */
+  margin-bottom: 1rem;
+}
+
+.moreButton {
+  display: block;
+  margin: 1rem auto 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--button-bg); /* Use button background */
+  color: var(--button-text); /* Use button text */
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.moreButton:hover {
+  background-color: var(--button-hover); /* Use button hover color */
+}
+
+.showMoreButton {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--button-bg); /* Use button background */
+  color: var(--button-text); /* Use button text */
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.showMoreButton:hover {
+  background-color: var(--button-hover); /* Use button hover color */
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: var(--background);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.modalContent h3 {
+  font-size: 2rem;
+  color: var(--primary-color); /* Use primary color */
+  margin-bottom: 1rem;
+}
+
+.modalContent p {
+  color: var(--text-color); /* Use text color */
+  margin-bottom: 1.5rem;
+}
+
+.technologies {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.tech {
+  background-color: var(--primary-color); /* Use primary color */
+  color: var(--button-text); /* Use button text color */
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--button-bg); /* Use button background */
+  color: var(--button-text); /* Use button text */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: var(--button-hover); /* Use button hover color */
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-color); /* Use text color */
+}

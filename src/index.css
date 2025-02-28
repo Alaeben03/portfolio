@@ -1,0 +1,59 @@
+/* 🎨 Dark Mode Styling */
+:root {
+  --background: white;
+  --background2 : rgb(244, 244, 244);
+  --primary-color: orange;
+  --text-color: black;
+  --hover-bg: orange;
+  --hover-text: white;
+  --button-bg: orange;
+  --button-text: white;
+  --button-hover: #ffae42;
+}
+
+[data-theme='dark'] {
+  --background: #1b1b1b;
+  --background2 : rgb(20, 20, 20);
+  --primary-color: #ffae42;
+  --text-color: white;
+  --hover-bg: #ffae42;
+  --hover-text: black;
+  --button-bg: #ffae42;
+  --button-text: black;
+  --button-hover: orange;
+}
+
+/* Apply Variables to Body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background2);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Headings */
+h1 {
+  color: var(--primary-color);
+}
+
+/* General Button Styling */
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}

@@ -1,0 +1,48 @@
+.footer {
+  padding: 2rem;
+  background-color: var(--background2); /* Use background variable */
+  color: var(--text-color); /* Use text color variable */
+  text-align: center;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.backToTop {
+  padding: 0.8rem 1.5rem;
+  background-color: var(--button-bg); /* Use button background variable */
+  color: var(--button-text); /* Use button text color variable */
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.backToTop:hover {
+  background-color: var(--button-hover); /* Use button hover background variable */
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.socialLinks a {
+  text-decoration: none;
+  color: var(--text-color); /* Use text color variable */
+  font-weight: 500;
+}
+
+.socialLinks a:hover {
+  color: var(--primary-color); /* Use primary color variable for hover */
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #ccc;
+}

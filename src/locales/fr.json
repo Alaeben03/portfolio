@@ -1,0 +1,147 @@
+{
+    "about": {
+      "title": "Profil",
+      "imageSrc": "/alae.jpg",
+      "imageAlt": "Alaeddine",
+      "description": "Je suis étudiant en Master en Intelligence Artificielle, passionné par la résolution de problèmes réels à l'aide de l'apprentissage automatique, de la vision par ordinateur et des systèmes multi-agents. J'aime travailler sur des projets stimulants et apprendre continuellement de nouvelles technologies.",
+      "sections": {
+        "education": {
+          "title": "Éducation",
+          "items": [
+            { "degree": "Master en Intelligence Artificielle", "university": "[Votre Université]", "year": "[Année]" },
+            { "degree": "Licence en [Votre Domaine]", "university": "[Votre Université]", "year": "[Année]" },
+            { "degree": "Licence en [Votre Domaine]", "university": "[Votre Université]", "year": "[Année]" }
+          ]
+        },
+        "interests": {
+          "title": "Intérêts",
+          "items": [
+            "Sports : Football, Basketball, Tennis",
+            "Musique : Jouer de la guitare, écouter du jazz",
+            "Voyages : Explorer de nouvelles cultures et cuisines",
+            "Lecture : Science-fiction et non-fiction"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "formFields": [
+        { "label": "Nom", "type": "text", "id": "name", "name": "name", "required": true },
+        { "label": "Email", "type": "email", "id": "email", "name": "email", "required": true },
+        { "label": "Message", "type": "textarea", "id": "message", "name": "message", "required": true }
+      ],
+      "submitButton": "Envoyer le message",
+      "socialTitle": "Restons connectés !",
+      "socialText": "N'hésitez pas à me contacter par email ou à vous connecter avec moi sur les réseaux sociaux.",
+      "socialLinks": [
+        { "name": "LinkedIn", "url": "https://www.linkedin.com/in/alaeddine-benheddi-a38b01232/" },
+        { "name": "GitHub", "url": "https://github.com/Alaeben03" },
+        { "name": "Email", "url": "mailto:alaeben.st@gmail.com" }
+      ],
+      "alertMessage": "Merci pour votre message ! Je reviendrai vers vous sous peu."
+    },
+    "footer": {
+      "backToTop": "Retour en haut",
+      "copyrightText": "© 2025 [Votre Nom]. Tous droits réservés."
+    },
+    "hero": {
+      "title": "Étudiant en Master en IA",
+      "description": "Passionné par l'apprentissage automatique, la vision par ordinateur et les systèmes multi-agents.",
+      "buttons": [
+        { "text": "Voir mes projets", "link": "#projects" },
+        { "text": "Télécharger le CV", "link": "#resume" }
+      ]
+    },
+    "navbar": {
+      "name": "Benheddi Alaeddine",
+      "menuButtonSymbol": "☰",
+      "navLinks": [
+        { "to": "home", "label": "Accueil" },
+        { "to": "about", "label": "À propos" },
+        { "to": "projects", "label": "Projets" },
+        { "to": "skills", "label": "Compétences" },
+        { "to": "resume", "label": "CV" },
+        { "to": "contact", "label": "Contact" }
+      ]
+    },
+    "projects": {
+      "title": "Projets",
+      "projects": [
+        {
+          "id": 1,
+          "title": "Classification d'images de radiographies pulmonaires NIH",
+          "description": "Création d'un CNN pour classer les radiographies pulmonaires NIH en utilisant Python, TensorFlow et OpenCV.",
+          "details": "Ce projet a consisté à prétraiter un grand ensemble de données de radiographies pulmonaires et à entraîner un réseau neuronal convolutif (CNN) pour les classer dans différentes catégories.",
+          "technologies": ["Python", "TensorFlow", "OpenCV"],
+          "github": "https://github.com/yourusername/project1",
+          "moreButtonText": "Plus",
+          "githubButtonText": "Voir sur GitHub",
+          "closeButtonText": "X"
+        },
+        {
+          "id": 2,
+          "title": "Interactions spatiales dans les matchs de handball",
+          "description": "Analyse des interactions spatiales dans les matchs de handball en utilisant Python, SciPy et Matplotlib.",
+          "details": "Ce projet s'est concentré sur l'analyse des déplacements des joueurs et des interactions pendant les matchs de handball pour identifier des modèles et des stratégies.",
+          "technologies": ["Python", "SciPy", "Matplotlib"],
+          "github": "https://github.com/yourusername/project2",
+          "moreButtonText": "Plus",
+          "githubButtonText": "Voir sur GitHub",
+          "closeButtonText": "X"
+        },
+        {
+          "id": 3,
+          "title": "Système multi-agents pour la gestion de l'atelier de production",
+          "description": "Développement d'un système multi-agents pour la gestion des ateliers de production en utilisant Java et JADE.",
+          "details": "Ce projet a impliqué la conception et la mise en œuvre d'un système multi-agents pour optimiser les flux de travail de production dans un environnement d'atelier.",
+          "technologies": ["Java", "JADE"],
+          "github": "https://github.com/yourusername/project3",
+          "moreButtonText": "Plus",
+          "githubButtonText": "Voir sur GitHub",
+          "closeButtonText": "X"
+        },
+        {
+          "id": 4,
+          "title": "Chatbot alimenté par IA",
+          "description": "Création d'un chatbot en utilisant le traitement du langage naturel et des techniques d'apprentissage automatique.",
+          "details": "Ce projet a impliqué l'entraînement d'un chatbot pour comprendre et répondre aux requêtes des utilisateurs en utilisant des modèles NLP et d'apprentissage automatique.",
+          "technologies": ["Python", "NLP", "TensorFlow"],
+          "github": "https://github.com/yourusername/project4",
+          "moreButtonText": "Plus",
+          "githubButtonText": "Voir sur GitHub",
+          "closeButtonText": "X"
+        },
+        {
+          "id": 5,
+          "title": "Système de reconnaissance d'images",
+          "description": "Développement d'un système de reconnaissance d'images en utilisant des réseaux neuronaux convolutifs.",
+          "details": "Ce projet a impliqué la création et l'entraînement d'un CNN pour reconnaître des objets dans des images avec une grande précision.",
+          "technologies": ["Python", "TensorFlow", "Keras"],
+          "github": "https://github.com/yourusername/project5",
+          "moreButtonText": "Plus",
+          "githubButtonText": "Voir sur GitHub",
+          "closeButtonText": "X"
+        }
+      ],
+      "showMoreButtonText": "Afficher plus",
+      "showLessButtonText": "Afficher moins",
+      "technologiesLabel": "Technologies :"
+    },
+    "resume": {
+      "title": "CV",
+      "downloadButtonText": "Télécharger le CV (PDF)",
+      "resumeLink": "/resume.pdf"
+    },
+    "skills": {
+      "title": "Compétences",
+      "categories": {
+        "Langages de programmation": ["Python", "Java", "C++", "JavaScript"],
+        "Apprentissage automatique": ["TensorFlow", "PyTorch", "Scikit-Learn", "Keras"],
+        "Analyse de données": ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
+        "Outils et frameworks": ["Git", "Docker", "Jupyter Notebook", "VS Code"],
+        "Autres compétences": ["Vision par ordinateur", "Traitement du langage naturel", "Systèmes multi-agents", "Éthique de l'IA"]
+      }
+    }
+  }
+  

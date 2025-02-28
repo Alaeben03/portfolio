@@ -1,0 +1,103 @@
+/* 📌 About Section */
+.about {
+  padding: 4rem 2rem;
+  background-color: var(--background);
+  transition: background-color 0.3s ease;
+}
+
+/* 📌 Content Wrapper */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 📌 Title */
+h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* 📌 Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* 📌 Left Section (Profile Image) */
+.left {
+  display: flex;
+  justify-content: center;
+}
+
+.profileImage {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 📌 Right Section */
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* 📌 Description */
+.description {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* 📌 Subheading */
+.about h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-top: 1.5rem;
+}
+
+/* 📌 List Styling */
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li {
+  margin: 0.5rem 0;
+  color: var(--text-color);
+}
+
+/* 🌙 Dark Mode */
+:root {
+  --about-bg: white;
+  --primary-color: orange;
+  --text-color: #333;
+}
+
+[data-theme='dark'] {
+  --about-bg: #222;
+  --primary-color: #ffae42;
+  --text-color: white;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .profileImage {
+    margin: 0 auto;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
